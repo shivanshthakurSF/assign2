@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>User Management Table</title>
+
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+
+  <body class="container">
+    <h2 class="title">User Management Table</h2>
+
+    <div class="btn-center">
+      <button id="loadBtn" class="btn-primary">Load Data</button>
+    </div>
+
+    <div class="table-responsive">
+      <table id="userTable" class="table" style="display: none">
+        <thead class="table-header">
+          <tr>
+            <th>First Name</th>
+            <th>Middle Name</th>
+            <th>Last Name</th>
+            <th>Email</th>
+            <th>Phone Number</th>
+            <th>Role</th>
+            <th>Address</th>
+            <th>Actions</th>
+          </tr>
+        </thead>
+        <tbody id="tableBody"></tbody>
+      </table>
+    </div>
+
+    <script src="data.js"></script>
+    <script src="script.js"></script>
+  </body>
+</html>
